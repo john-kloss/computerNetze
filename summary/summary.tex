@@ -1,9 +1,8 @@
 \documentclass[11pt,ngerman]{article}
 \usepackage[utf8]{inputenc}
 %?
-\linespread{1.0}
-\setlength{\parskip}{0.7em}
-\setlength{\baselineskip}{0.2cm}
+\setlength{\parskip}{0.1cm}
+\setlength{\baselineskip}{0.1cm}
 \setlength{\parindent}{0em}
 \usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=5mm]{geometry}
 %?
@@ -175,10 +174,22 @@ Peer-to-Peer	Principle (ursprüngliche Kommunikation im Internet)
 \end{itemize}
 
 \subsection{Communication	Protocols}
-WHY Protocol!	
-\\\\
+
 A	protocol	is	the	set	of	agreements	between	(application)	processes	with	the	purpose	of	
 communication.\\
+To	enable	understanding	in	communication,	all	communication	partners	have	to	speak	the	
+same	language.
+\begin{itemize}
+\item Data	formats	and	their	semantics
+\item Control	over	media	access
+\item Priorities
+\item Handling	of	transmission	errors
+\item Sequence	control
+\item Flow	control	mechanisms
+\item Segmentation	and	composition	of	long	messages
+\item Multiplexing
+\item Routing
+\end{itemize}
 	\includegraphics[width=5in]{images/Selection_006.png}\\
 	$\rightarrow$ communication between horizontal layers
 	
@@ -203,6 +214,106 @@ Communication	architectures	are	based	on
 \item Rules	=	Communication	Protocol
 
 \end{itemize}
+A	service	is	offered	from	a	service	provider at	a	service	interface	
+to	service	users.\\
+Types	of	services	are:
+\begin{itemize}
+\item Request
+\item Indication
+\item Response
+\item Confirmation
+\end{itemize}
+
+\includegraphics[width=5in]{images/Selection_007.png}\\
+
+\textbf{Types of Services}
+\begin{itemize}
+\item Unacknowledged	Service
+\begin{itemize}
+\item Modeled	after	the	postal	service
+\item Initiated	by	the	service	user
+\end{itemize}
+\item Acknowledged	Service (Transaction)
+\item Connection-oriented	Service
+\begin{itemize}
+\item Modeled	after	the	telephone	system
+\item Before	the	instances	on	Layer-(N)	can	
+exchange	data,	a	connection	on	
+Layer-(N-1)	has	to	be	established
+\item Negotiation	of	protocol	parameters\\
+$\rightarrow$ Communication	context
+\end{itemize}
+\item Connectionless	Service
+\begin{itemize}
+\item  Modeled	after	the	postal	service
+\item No	establishment	of	connection	on	a	
+lower	layer	required\\
+$\rightarrow$ No	communication	context
+\end{itemize}
+\end{itemize}
+
+\includegraphics[width=5in]{images/Selection_008.png}\\
+\includegraphics[width=5in]{images/Selection_009.png}\\
+
+\textbf{Service primitives}\\
+\begin{tabular}[t]{ll}
+Primitive & Meaning\\
+\hline
+LISTEN & Block	waiting	for	an	incoming	connection\\
+CONNECT & Establish	a	connection	with	a	waiting	peer\\
+RECEIVE & Block	waiting	for	an	incoming	message\\
+SEND & Send	a	message	to	the	peer\\
+DISCONNECT & Terminate	a	connection\\
+\end{tabular}\\
+\includegraphics[width=3in]{images/Selection_010.png}\\
+
+\subsection{ISO/OSI Reference Model}
+\includegraphics[width=5in]{images/Selection_011.png}\\
+
+\begin{enumerate}
+\item Physical	Layer
+	\begin{itemize}
+	\item Responsible for single bit transmission
+	\item Details are defined: type	of	cables,	meaning	of	pins	of	network	
+	connectors,	transmission	direction	on	the	cable
+	\end{itemize}
+	
+\item Data Link Layer
+	\begin{itemize}
+	\item Ensures	an	error-free data	transmission	between	two	directly	connected	
+devices $\rightarrow$ segmented into frames (transmitted separately)
+	\item Receiver checks the correctness (checksum)
+	\item flow	control	is	used	to	control	the	re-transmission	of	corrupt	
+frames	and	protect	the	receiver	from	overload.
+	\item control	of	medium	access (prevent address conflict)
+	\end{itemize}
+
+\item Network Layer
+	\begin{itemize}
+	\item Data-transmission over	large	distances	and	
+between	heterogeneous	sub-networks
+	\item uniform	addressing	of	hosts
+	\item 	routing:	select	a	path	through	the	network.		
+	\item Quality	of	Service	(QoS)	issues,	i.e.,	if	too	many	packets	are	present	at	the	
+same	time	in	the	network,	they	may	form	bottlenecks. (congestion, maximum size	of	the	transferred	data	units	(MTU), delay,	jitter,	transit	time,	etc.)
+	\end{itemize}
+	
+\item Transport Layer
+	\begin{itemize}
+	\item end-to-end	communication between	two	processes
+	\item Ensure	that	the	data	are	receipt	complete and	in	correct	order
+	\item current	network	state	is	monitored	to	adapt	to	the	
+receiver	and	to	the	network	capacity
+	\end{itemize}
+\end{enumerate}
+
+
+
+
+
+
+
+
 
 
 \end{document}

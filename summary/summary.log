@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.6)  18 APR 2017 13:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.6)  30 APR 2017 11:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -520,20 +520,20 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 (./summary.aux)
 \openout1 = `summary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -571,7 +571,7 @@ LaTeX Font Info:    ... okay on input line 14.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box26
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 13.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -580,9 +580,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count105
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
 (./summary.out) (./summary.out)
 \@outlinefile=\write3
@@ -618,11 +618,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
+(Font)              <12> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
+(Font)              <6> on input line 17.
 
 (./summary.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -631,105 +631,150 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `summary.toc'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
 
-<images/Selection_001.png, id=59, 1052.93375pt x 578.16pt>
+<images/Selection_001.png, id=64, 1052.93375pt x 578.16pt>
 File: images/Selection_001.png Graphic file (type png)
 
 <use images/Selection_001.png>
-Package pdftex.def Info: images/Selection_001.png used on input line 42.
+Package pdftex.def Info: images/Selection_001.png used on input line 41.
 (pdftex.def)             Requested size: 361.34999pt x 198.41559pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/Selection_001
 .png>]
-<images/Selection_002.png, id=76, 631.35875pt x 107.40125pt>
+<images/Selection_002.png, id=81, 631.35875pt x 107.40125pt>
 File: images/Selection_002.png Graphic file (type png)
 
 <use images/Selection_002.png>
-Package pdftex.def Info: images/Selection_002.png used on input line 117.
+Package pdftex.def Info: images/Selection_002.png used on input line 116.
 (pdftex.def)             Requested size: 361.34999pt x 61.47008pt.
 
-<images/Selection_003.png, id=77, 636.3775pt x 59.22125pt>
+<images/Selection_003.png, id=82, 636.3775pt x 59.22125pt>
 File: images/Selection_003.png Graphic file (type png)
 
 <use images/Selection_003.png>
-Package pdftex.def Info: images/Selection_003.png used on input line 122.
+Package pdftex.def Info: images/Selection_003.png used on input line 121.
 (pdftex.def)             Requested size: 361.34999pt x 33.62723pt.
 
-<images/Selection_004.png, id=78, 754.82pt x 391.4625pt>
+<images/Selection_004.png, id=83, 754.82pt x 391.4625pt>
 File: images/Selection_004.png Graphic file (type png)
 
 <use images/Selection_004.png>
-Package pdftex.def Info: images/Selection_004.png used on input line 126.
+Package pdftex.def Info: images/Selection_004.png used on input line 125.
 (pdftex.def)             Requested size: 361.34999pt x 187.3981pt.
  [3 <./images/Selection_002.png> <./images/Selection_003.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
+Underfull \hbox (badness 10000) in paragraph at lines 127--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-<images/Selection_005.png, id=83, 831.105pt x 294.09875pt>
+<images/Selection_005.png, id=88, 831.105pt x 294.09875pt>
 File: images/Selection_005.png Graphic file (type png)
 
 <use images/Selection_005.png>
-Package pdftex.def Info: images/Selection_005.png used on input line 147.
+Package pdftex.def Info: images/Selection_005.png used on input line 146.
 (pdftex.def)             Requested size: 361.34999pt x 127.8691pt.
  [4 <./images/Selection_004.png> <./images/Selection_005.png>] <images/Selectio
-n_006.png, id=88, 765.86125pt x 499.8675pt>
+n_006.png, id=93, 765.86125pt x 499.8675pt>
 File: images/Selection_006.png Graphic file (type png)
 
 <use images/Selection_006.png>
-Package pdftex.def Info: images/Selection_006.png used on input line 182.
+Package pdftex.def Info: images/Selection_006.png used on input line 193.
 (pdftex.def)             Requested size: 361.34999pt x 235.85303pt.
+ [5 <./images/Selection_006.png>]
+<images/Selection_007.png, id=98, 704.6325pt x 304.13625pt>
+File: images/Selection_007.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+<use images/Selection_007.png>
+Package pdftex.def Info: images/Selection_007.png used on input line 227.
+(pdftex.def)             Requested size: 361.34999pt x 155.96596pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
+<images/Selection_008.png, id=99, 906.38625pt x 599.23875pt>
+File: images/Selection_008.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--183
+<use images/Selection_008.png>
+Package pdftex.def Info: images/Selection_008.png used on input line 255.
+(pdftex.def)             Requested size: 361.34999pt x 238.89575pt.
+
+<images/Selection_009.png, id=100, 900.36375pt x 600.2425pt>
+File: images/Selection_009.png Graphic file (type png)
+
+<use images/Selection_009.png>
+Package pdftex.def Info: images/Selection_009.png used on input line 256.
+(pdftex.def)             Requested size: 361.34999pt x 240.89873pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
 
  []
 
-[5 <./images/Selection_006.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
- (./summary.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+[6 <./images/Selection_007.png>]
+<images/Selection_010.png, id=105, 602.25pt x 522.95375pt>
+File: images/Selection_010.png Graphic file (type png)
+
+<use images/Selection_010.png>
+Package pdftex.def Info: images/Selection_010.png used on input line 268.
+(pdftex.def)             Requested size: 216.81pt x 188.2632pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--269
+
+ []
+
+[7 <./images/Selection_008.png> <./images/Selection_009.png>]
+<images/Selection_011.png, id=111, 858.20625pt x 368.37625pt>
+File: images/Selection_011.png Graphic file (type png)
+
+<use images/Selection_011.png>
+Package pdftex.def Info: images/Selection_011.png used on input line 271.
+(pdftex.def)             Requested size: 361.34999pt x 155.10481pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+[8 <./images/Selection_010.png> <./images/Selection_011.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
+
+(./summary.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 319.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
 Package rerunfilecheck Info: File `summary.out' has not changed.
-(rerunfilecheck)             Checksum: 0549CAE9B733C29EC8C70FEC297B16B7;695.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 208.
+(rerunfilecheck)             Checksum: 09899F85E3C0A8FF7D9D4BE7D8AF36FE;768.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
  ) 
 Here is how much of TeX's memory you used:
- 5929 strings out of 494901
- 86216 string characters out of 6178618
- 172427 words of memory out of 5000000
- 9161 multiletter control sequences out of 15000+600000
+ 5963 strings out of 494901
+ 86948 string characters out of 6178618
+ 172424 words of memory out of 5000000
+ 9182 multiletter control sequences out of 15000+600000
  8811 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,6n,28p,184b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,28p,184b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on summary.pdf (6 pages, 341415 bytes).
+Output written on summary.pdf (9 pages, 515476 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
