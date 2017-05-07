@@ -305,10 +305,117 @@ same	time	in	the	network,	they	may	form	bottlenecks. (congestion, maximum size	o
 	\item current	network	state	is	monitored	to	adapt	to	the	
 receiver	and	to	the	network	capacity
 	\end{itemize}
+	
+\item Session Layer
+	\begin{itemize}
+	\item manages	reliable	data	transport
+	\item offers dialogue	
+control,	i.e.,	define	the	direction	of	the	transmission.
+	\item token	management (allows operation)
+	\item set synchronization	points in the communication process
+	\end{itemize}
+	
+\item Presentation	Layer
+	\begin{itemize}
+	\item Represent	the	data	to	be	transmitted	in	a	way,	that	they	can	be	handled	from	
+different	computer	systems	
+	\item Data	are	encoded in	an	abstract (and	commonly	recognized)	data	format	before	
+the	transmission	and	are	coded	back	by	the	receiver	into	its	own	data	format.
+	\end{itemize}
+	
+\item Application	Layer
+	\begin{itemize}
+	\item standard protocols	are	provided,	that	can	be	used	from	
+applications
+	\item interface	to	file	transfer
+	\end{itemize}
+\end{enumerate}
+
+\textbf{Interplay	between	the	Layers
+}\begin{itemize}
+\item Layer	(N-1)	offers	its	functionality	to	layer	N	as	a	communication	service.
+\item Layer N	enhances	the	data	to	be	sent	with	control	information	(Header)	and	sends	the	data	
+together	with	the	header	as Protocol	Data	Units (PDU).
+\item Depending on the protocol, N-PDUs can be segmented into several
+(N-1)-PDUs before transmission
+\end{itemize}
+
+\subsection{The	TCP/IP	Reference	Model}
+\begin{enumerate}
+	\item Host-to-Network	Layer (1+2)
+		\begin{itemize}
+		\item Not defined exactly
+		\item host	
+must	be	connected	to	the	network	via	a	protocol	in	a	way	that	it	is	able	to	send	
+and	receive	IP	datagrams
+		\end{itemize}
+	\item Internet	Layer (3)
+		\begin{itemize}
+		\item 	interworking	of	different	networks
+		\item enables	communication	between	hosts	over	the	own	network	
+borders (	transmission	is	connectionless)
+		\item  Router takes over the forwarding
+		\item Path can be dynamic
+		\item In	contrast	to	ISO,	only	one	packet	format	is	defined,	together	with	a	
+connectionless	protocol,	the	Internet	Protocol	(IP)
+		\end{itemize}
+	\item Transport	Layer (4)
+		\begin{itemize}
+		\item covers	the	communication	between	the	end	systems
+		\item TCP (Transmission	Control	Protocol)	is	a	reliable,	connection-oriented protocol	
+for	the	transmission	of	a	byte	stream between	two	hosts.
+		\item UDP (User	Datagram	Protocol)	is	an	unreliable and	connectionless	protocol	
+(best	effort).
+		\end{itemize}
+	\item Application	Layer (7)
+		\begin{itemize}
+		\item defines	common	communication	services (HTTP, FTP,..)
+		\end{itemize}
+\end{enumerate}
+
+\subsection{OSI	vs.	TCP/IP}
+
+\begin{enumerate}
+	\item Time -
+The	TCP/IP	protocols	were	already	widely	used	before	OSI	had	finished	the	
+standardization	activities.
+	\item Freedom	from	obligation (defines what not how) $\rightarrow$ incompatibility	of	products
+	\item Complicatedness
+	\item 	Political	reasons (Europe)
+	\item Hurriedly	product	implementation
 \end{enumerate}
 
 
 
+\subsection{Standardization}
+Two	types	of	standards
+\begin{itemize}
+\item De	facto	standards
+\item De	jure	standards
+\end{itemize}
+
+Organisationen:
+\begin{itemize}
+\item ISO
+\item Internet	Engineering	Task	Force
+\item Institute	of	Electrical	and	Electronic	Engineers	(IEEE)
+\end{itemize}
+
+\subsection{Evolution	of	Computer	Networks}
+\begin{itemize}
+\item First generation: via mainframe in computer center
+\item Connection via LAN, router $\rightarrow$ rest of the world
+\item computer centers via router connected to backbone $\rightarrow$ rest of the world
+\end{itemize}
+
+\subsection{Classification	of	Computer	Networks}
+\begin{itemize}
+\item Personal	Area	Network	(PAN) - 1m
+\item Local	Area	Network	(LAN) - 10-100m
+\item Metropolitan	Area	Network	(MAN) - 1-10km
+\item Wide	Area	Network	(WAN) - 100-1000km
+\item Internet - 10000km 
+\end{itemize}
 
 
 
@@ -317,15 +424,3 @@ receiver	and	to	the	network	capacity
 
 
 \end{document}
-
-Model	of	layers	is	applied	to	simplify	the	complexity
-•
-•
-ISO/OSI
-TCP/IP
-There	are	many	global	players	in	computer	networking
-•
-Standardization
-Computer	networks
-•
-Different	kinds	of	computer	networks	exist
