@@ -1,14 +1,12 @@
 \documentclass[11pt,ngerman]{article}
 \usepackage[utf8]{inputenc}
 %?
-\setlength{\parskip}{0.1cm}
-\setlength{\baselineskip}{0.1cm}
-\setlength{\parindent}{0em}
 \usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=5mm]{geometry}
 %?
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{graphicx}
+\usepackage{enumitem}
 
 \begin{document}
 \title{Summary Computer Networks}
@@ -22,7 +20,7 @@
 \section{Motivation}
 
 \subsection{Communication	Metaphors}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Phase 1: Person to person
 	\item Phase 2: Person to machine
 	\item Phase 3: Machine to machine/Network of computers
@@ -30,7 +28,7 @@
 \end{itemize}
 
 \subsection{History}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item 1837:	Samuel	Morse	develops	the	telegraph
 	\item 1953:	First	transatlantic	Telephone	line
 	\item 1876:	Alexander	Graham	Bell	patents	the	telephone	(tele=distant,	phone=voice)
@@ -42,9 +40,9 @@ Existing	networks	are	going	to	be	integrated\\
 
 \subsection{The Internet}7
 The internet consists of
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item a	set	of	computers,	which
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 		\item use	the	TCP/IP	protocols
 		\item are	somehow	(directly	or	indirectly)	connected
 		\item offer	or	use	particular	services
@@ -54,7 +52,7 @@ The internet consists of
 \end{itemize}
 
 Design Principles
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Minimalism	and	autonomy  - The	network	operates	by	itself	, does	not	require	internal	changes	when	new	networks	are	added
 	\item Best-effort	service	model
 	\item Soft-state	(stateless) - The	routers	do	not need	to	maintain end-to-end	communication	
@@ -75,7 +73,7 @@ connections	between	computers	(generally	over	large	distances).\\
 Data	communication	comprises	two areas: Computer	Networks and Communication	Protocols
 
 \subsection{What	is	Digital	Data?}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Data: Representation	of	facts in	a	formal	way, processable by humans and machines, e.g. a language
 	\item Information:  is	whatever	contributes	
 to	a	reduction	in	the	uncertainty	of	the	state	of	a	system, can only be handled by humans
@@ -86,14 +84,14 @@ of	physical	characteristics
 \end{itemize}
 
 \subsection{Data	Communication}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Sharing	resources	saves	costs
 	\item Exchange	of	information
 \end{itemize}
 
 \subsection{Networking	Principles}
 Communication	Peers
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Unicast:	Two	communication	peers	
 communicate	over	a	Point-to-Point	
 connection.
@@ -108,7 +106,7 @@ Typically	the	other	peers	are
 \end{itemize}
 
 Transmission
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Serial Transmission
 	\item Parallel Transmission (Problem: synchronisation of the data)
 	\item Asynchronous Transmission:	Transmission	in	which	each	block	
@@ -130,10 +128,10 @@ channels	into	a	single	data
 channel	at	the	source\\
 
 Quality\\
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Technical	Performance (Delay-Bandwidth-Product	=	
 Store	capacity of	the	line)
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 		\item Delay	[s]
 		\item Jitter	[s]
 		\item Throughput	[bit/s]
@@ -148,13 +146,13 @@ Store	capacity of	the	line)
 
 
 The	Client/Server	Principle
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Client $\rightarrow$ Server: Request
 	\item Server $\rightarrow$ Client: Reply 
 \end{itemize}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Advantages
-	\begin{itemize}  
+	\begin{itemize}[noitemsep]  
 	\item Cost	reduction
 	\item Better	usage	of	resources
 	\item Modular	extensions
@@ -166,7 +164,7 @@ The	Client/Server	Principle
 
 
 Peer-to-Peer	Principle (ursprüngliche Kommunikation im Internet)
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item Equal	partners,	no	fixed	client	and	server	roles
 	\item Connections	between	any	pair	of	computers
 	\item Establishment	of	a	whole	network	of	connections
@@ -179,7 +177,7 @@ A	protocol	is	the	set	of	agreements	between	(application)	processes	with	the	pur
 communication.\\
 To	enable	understanding	in	communication,	all	communication	partners	have	to	speak	the	
 same	language.
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item Data	formats	and	their	semantics
 \item Control	over	media	access
 \item Priorities
@@ -194,7 +192,7 @@ same	language.
 	$\rightarrow$ communication between horizontal layers
 	
 Peer	of	a	Layer
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item
 use	one	service	
 (except	the	bottom)
@@ -209,7 +207,7 @@ talk	according	to	the	rules
 \end{itemize}
 
 Communication	architectures	are	based	on
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item  Service	=	Communication	Service
 \item Rules	=	Communication	Protocol
 
@@ -217,7 +215,7 @@ Communication	architectures	are	based	on
 A	service	is	offered	from	a	service	provider at	a	service	interface	
 to	service	users.\\
 Types	of	services	are:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item Request
 \item Indication
 \item Response
@@ -227,15 +225,15 @@ Types	of	services	are:
 \includegraphics[width=5in]{images/Selection_007.png}\\
 
 \textbf{Types of Services}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item Unacknowledged	Service
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item Modeled	after	the	postal	service
 \item Initiated	by	the	service	user
 \end{itemize}
 \item Acknowledged	Service (Transaction)
 \item Connection-oriented	Service
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item Modeled	after	the	telephone	system
 \item Before	the	instances	on	Layer-(N)	can	
 exchange	data,	a	connection	on	
@@ -244,7 +242,7 @@ Layer-(N-1)	has	to	be	established
 $\rightarrow$ Communication	context
 \end{itemize}
 \item Connectionless	Service
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item  Modeled	after	the	postal	service
 \item No	establishment	of	connection	on	a	
 lower	layer	required\\
@@ -270,16 +268,16 @@ DISCONNECT & Terminate	a	connection\\
 \subsection{ISO/OSI Reference Model}
 \includegraphics[width=5in]{images/Selection_011.png}\\
 
-\begin{enumerate}
+\begin{enumerate}[noitemsep]
 \item Physical	Layer
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 	\item Responsible for single bit transmission
 	\item Details are defined: type	of	cables,	meaning	of	pins	of	network	
 	connectors,	transmission	direction	on	the	cable
 	\end{itemize}
 	
 \item Data Link Layer
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 	\item Ensures	an	error-free data	transmission	between	two	directly	connected	
 devices $\rightarrow$ segmented into frames (transmitted separately)
 	\item Receiver checks the correctness (checksum)
@@ -289,7 +287,7 @@ frames	and	protect	the	receiver	from	overload.
 	\end{itemize}
 
 \item Network Layer
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 	\item Data-transmission over	large	distances	and	
 between	heterogeneous	sub-networks
 	\item uniform	addressing	of	hosts
@@ -299,7 +297,7 @@ same	time	in	the	network,	they	may	form	bottlenecks. (congestion, maximum size	o
 	\end{itemize}
 	
 \item Transport Layer
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 	\item end-to-end	communication between	two	processes
 	\item Ensure	that	the	data	are	receipt	complete and	in	correct	order
 	\item current	network	state	is	monitored	to	adapt	to	the	
@@ -307,7 +305,7 @@ receiver	and	to	the	network	capacity
 	\end{itemize}
 	
 \item Session Layer
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 	\item manages	reliable	data	transport
 	\item offers dialogue	
 control,	i.e.,	define	the	direction	of	the	transmission.
@@ -316,7 +314,7 @@ control,	i.e.,	define	the	direction	of	the	transmission.
 	\end{itemize}
 	
 \item Presentation	Layer
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 	\item Represent	the	data	to	be	transmitted	in	a	way,	that	they	can	be	handled	from	
 different	computer	systems	
 	\item Data	are	encoded in	an	abstract (and	commonly	recognized)	data	format	before	
@@ -324,7 +322,7 @@ the	transmission	and	are	coded	back	by	the	receiver	into	its	own	data	format.
 	\end{itemize}
 	
 \item Application	Layer
-	\begin{itemize}
+	\begin{itemize}[noitemsep]
 	\item standard protocols	are	provided,	that	can	be	used	from	
 applications
 	\item interface	to	file	transfer
@@ -332,7 +330,7 @@ applications
 \end{enumerate}
 
 \textbf{Interplay	between	the	Layers
-}\begin{itemize}
+}\begin{itemize}[noitemsep]
 \item Layer	(N-1)	offers	its	functionality	to	layer	N	as	a	communication	service.
 \item Layer N	enhances	the	data	to	be	sent	with	control	information	(Header)	and	sends	the	data	
 together	with	the	header	as Protocol	Data	Units (PDU).
@@ -343,14 +341,14 @@ together	with	the	header	as Protocol	Data	Units (PDU).
 \subsection{The	TCP/IP	Reference	Model}
 \begin{enumerate}
 	\item Host-to-Network	Layer (1+2)
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 		\item Not defined exactly
 		\item host	
 must	be	connected	to	the	network	via	a	protocol	in	a	way	that	it	is	able	to	send	
 and	receive	IP	datagrams
 		\end{itemize}
 	\item Internet	Layer (3)
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 		\item 	interworking	of	different	networks
 		\item enables	communication	between	hosts	over	the	own	network	
 borders (	transmission	is	connectionless)
@@ -360,7 +358,7 @@ borders (	transmission	is	connectionless)
 connectionless	protocol,	the	Internet	Protocol	(IP)
 		\end{itemize}
 	\item Transport	Layer (4)
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 		\item covers	the	communication	between	the	end	systems
 		\item TCP (Transmission	Control	Protocol)	is	a	reliable,	connection-oriented protocol	
 for	the	transmission	of	a	byte	stream between	two	hosts.
@@ -368,14 +366,14 @@ for	the	transmission	of	a	byte	stream between	two	hosts.
 (best	effort).
 		\end{itemize}
 	\item Application	Layer (7)
-		\begin{itemize}
+		\begin{itemize}[noitemsep]
 		\item defines	common	communication	services (HTTP, FTP,..)
 		\end{itemize}
 \end{enumerate}
 
 \subsection{OSI	vs.	TCP/IP}
 
-\begin{enumerate}
+\begin{enumerate}[noitemsep]
 	\item Time -
 The	TCP/IP	protocols	were	already	widely	used	before	OSI	had	finished	the	
 standardization	activities.
@@ -389,27 +387,27 @@ standardization	activities.
 
 \subsection{Standardization}
 Two	types	of	standards
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item De	facto	standards
 \item De	jure	standards
 \end{itemize}
 
 Organisationen:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item ISO
 \item Internet	Engineering	Task	Force
 \item Institute	of	Electrical	and	Electronic	Engineers	(IEEE)
 \end{itemize}
 
 \subsection{Evolution	of	Computer	Networks}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item First generation: via mainframe in computer center
 \item Connection via LAN, router $\rightarrow$ rest of the world
 \item computer centers via router connected to backbone $\rightarrow$ rest of the world
 \end{itemize}
 
 \subsection{Classification	of	Computer	Networks}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item Personal	Area	Network	(PAN) - 1m
 \item Local	Area	Network	(LAN) - 10-100m
 \item Metropolitan	Area	Network	(MAN) - 1-10km
@@ -418,9 +416,140 @@ Organisationen:
 \end{itemize}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Physical Layer}
+
+\subsection{Theoretical	Basis	for	Data	Communication}
+\begin{itemize}[noitemsep]
+\item Spectrum of	a	signal	is	the	range	of	
+frequencies	it	contains
+\item The	absolute	bandwidth of	the	signal	
+is	the	width	of	the	spectrum
+\item Bandwith of a medium: Frequency	range	which	can	be	
+transmitted	over	a	medium
+\end{itemize}
+
+Transmission	of	information	can	take	place	on	
+\begin{itemize}[noitemsep]
+\item Baseband (information	is	transmitted	over	the	medium	as	it	is)\\
+	$\rightarrow$ discrete	(digital) signals
+\item Broadband (The	information	is	transmitted	analogous by modulating onto a carrier signal)\\
+	used in optical and radio networks\\
+	$\rightarrow$ continuous	(analogous)	signals
+\end{itemize}
+
+Nyquist- und	Shannon-Theorem\\
+max.	data	rate	=	$2 \cdot B \cdot log_2 (n)$ vs. $B \cdot log_2 (1+SNR)$
+
+\subsection{Analog	Data	and	Digital	Signals}
+
+Pulse	Code	Modulation	(PCM)	is	based	on	the	sampling	theorem	
+by	Shannon	and	Raabe: If	a	signal	is	sampled	at	regular	intervals	of	time	and	at	a	rate	higher	than	twice	the	highest	
+significant	signal	frequency,	then	the	samples	contain	all	the	information	of	the	original	
+signal.
+
+\subsection{Data	Encoding}
+see exercise
+\subsection{Transmission	Media}
+see exercise
+\subsection{The	Last	Mile	Problem}
+connect	private	homes	to	
+the	Internet	without	installing	many	new	cables $\rightarrow$ Use	existing	telephone	lines:	re-use	them	for	data	
+traffic\\
+
+Examples: Modem, ISDN, DSL\\
+
+Modulation:
+\begin{itemize}[noitemsep]
+\item Amplitude Modulation
+\item Frequency Modulation
+\item Phase Modulation
+\end{itemize}
+
+\subsection{Multiplexing}
+Sharing	of	an	expensive	resource,	e.g.,	transmit	multiple	connections	over	
+the	same	line\\
+Frequency	Division	Multiplexing, Time	Division	Multiplexing
+
+\subsection{Digital	Subscriber	Line	(DSL)}
+Combination	of	usual	phone	service	
+(analog/ISDN)	and	data	service: 
+simply	use	the	whole	spectrum	a	copper	
+cable	can	transfer,	not	only	the	range	up	to	
+3.4	kHz!
 
 
+\section{Data Link Layer}
 
+\begin{itemize}[noitemsep]
+\item rovides	a	well-defined	service	
+interface	to	the	network	layer
+\item deals	with	transmission	errors
+regulates
+the	flow	of	data	, 
+the	access	to	the	medium, 
+that	a	slow	receiver	is	not	swamped	by	
+a	fast	sender
+\end{itemize}
 
+Parts:
+\begin{itemize}[noitemsep]
+\item Logical	Link	Control	(LLC)
+\begin{itemize}[noitemsep]
+\item  Organization	of	the	data	to	be	sent	into	frames
+\item Guarantee	(if	possible)	an	error	free	transmission	between	neighboring nodes	by	...
+\item Detection	(and	recovery)	of	transfer	errors
+\item Flow	Control	(avoidance	of	overloading	the	receiver)
+\item Buffer	Management
+\end{itemize}
+\item Medium	Access	Control	(MAC)
+\begin{itemize}[noitemsep]
+\item Access	control	to	the	communication	channel	in	broadcast	networks
+\end{itemize}
+\end{itemize}
+
+\subsection{Error	Detection	and	Correction}
+Compute	a	short	checksum	of	the	data	and	send	it	together	with	
+the	data	to	the	receiver.	
+
+CRC, Hamming Code $\rightarrow$ exercise
+
+\subsection{Elementary	Data	Link	Protocols}
+
+\includegraphics[width=5in]{images/Selection_016.png}
+
+\textbf{Sliding Window}: Allow	sender	to	transmit	up	to	W
+frames	before	blocking\\
+ $\rightarrow$ exercise\\
+\includegraphics[width=5in]{images/Selection_017.png}
+
+\subsection{High	Level	Data	Link	Control	(HDLC)}
+Three	types	of	stations
+\begin{itemize}[noitemsep]
+\item Primary	station:	responsible	for	controlling	the	operation	of	the	link.	
+\item Secondary	station:	operates	under	the	control	of	the	primary	station.	
+\item Combined	station
+\end{itemize}
+
+\textbf{Bit stuffing:} Sender	inserts	a	zero	after	each	sequence	of	five	ones.	The	receiver	removes	this	
+zero.\\
+frame: 01111110 Address Control Data Checksum 01111110 \\
+Control: 0 Seq P/F Next
+
+\subsection{Point-to-Point	Protocol	(PPP)}
+Establish	a	direct	connection	between	two	nodes\\
+Features:
+\begin{itemize}[noitemsep]
+\item Framing	method	with	error	detection
+\item Link	Control	Protocol
+\item is	character	oriented	and	uses	byte-stuffing
+\end{itemize}
+
+\subsection{Protocol Verification}
+\begin{itemize}[noitemsep]
+\item Finite	state	machines
+\item Petry nets
+\end{itemize}
 
 \end{document}

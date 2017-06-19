@@ -14,3 +14,18 @@
 \BOOKMARK [2][-]{subsection.2.8}{OSI vs. TCP/IP}{section.2}% 14
 \BOOKMARK [2][-]{subsection.2.9}{Standardization}{section.2}% 15
 \BOOKMARK [2][-]{subsection.2.10}{Evolution of Computer Networks}{section.2}% 16
+\BOOKMARK [2][-]{subsection.2.11}{Classification of Computer Networks}{section.2}% 17
+\BOOKMARK [1][-]{section.3}{Physical Layer}{}% 18
+\BOOKMARK [2][-]{subsection.3.1}{Theoretical Basis for Data Communication}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.2}{Analog Data and Digital Signals}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.3}{Data Encoding}{section.3}% 21
+\BOOKMARK [2][-]{subsection.3.4}{Transmission Media}{section.3}% 22
+\BOOKMARK [2][-]{subsection.3.5}{The Last Mile Problem}{section.3}% 23
+\BOOKMARK [2][-]{subsection.3.6}{Multiplexing}{section.3}% 24
+\BOOKMARK [2][-]{subsection.3.7}{Digital Subscriber Line \(DSL\)}{section.3}% 25
+\BOOKMARK [1][-]{section.4}{Data Link Layer}{}% 26
+\BOOKMARK [2][-]{subsection.4.1}{Error Detection and Correction}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.2}{Elementary Data Link Protocols}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.3}{High Level Data Link Control \(HDLC\)}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.4}{Point-to-Point Protocol \(PPP\)}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.5}{Protocol Verification}{section.4}% 31
